@@ -18,8 +18,8 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.stargazers.graph.svg
+          filename: metrics.plugin.introduction.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_stargazers: yes
-          plugin_stargazers_charts_type: graph
+          user: github
+          base: header
+          plugin_introduction: yes
